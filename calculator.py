@@ -59,7 +59,7 @@ def search_str(file_path, word):
                 quit()
 
 # Run the function - read external file
-search_str(r'C:\Users\MPC\PycharmProjects\pythonProject\license.txt', 'premium_version')
+search_str(r'C:\Users\MPC\PycharmProjects\calculator\license.txt', 'premium_version')
 
 # Instruction section
 print("Calculator has started")
