@@ -6,16 +6,12 @@ from datetime import datetime
 # Functions' definitions
 def takeInput():
     userTextInput = input("Enter equation\n")
-    # Test function
-    print("Function takeInput was executed. Output was", userTextInput)
     # End function
     return userTextInput
 
 
 def calculate_userTextInput(userInput):
     result = eval(userInput)
-    # Test function
-    print("Function calculate_userTextInput was executed. Input was", userInput, "Output was", result)
     # Show result
     print(result)
 
@@ -34,7 +30,6 @@ def calculate_userTextInput(userInput):
 
     # Timestamp
     ts = datetime.timestamp(dt)
-    print("Timestamp is:", ts)
 
     # End function
     return result
@@ -50,8 +45,7 @@ def search_str(file_path, word):
         content = file.read()
 
         # Show weekday and day name
-        print('Weekday is:', dt.isoweekday())
-        print('day Name:', dt.strftime('%A\n'))
+        print('Day Name:', dt.strftime('%A\n'))
 
         # Define the version of the program
         if word in content:
